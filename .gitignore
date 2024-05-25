@@ -1,0 +1,37 @@
+# Ignore all dotted (hidden) files
+.*
+
+# Don't ignore the Git Ignore
+!/.gitignore
+
+# Ignore WordPress Config
+/wp-config.php
+
+# Ignore xmlrpc
+/xmlrpc.php
+
+# Only include Plugins and Themes under WordPress Content Folder
+/wp-content/*
+!/wp-content/plugins/
+!/wp-content/themes/
+!/wp-content/index.php
+
+# Ignore other themes
+/wp-content/themes/*
+!/wp-content/themes/index.php
+!/wp-content/themes/kaka_fashion_theme/
+
+# Ignore unnecessary WordPress Files
+/wp-config-sample.php
+/license.txt
+/readme.html
+
+# Ignore unnecessary Files
+.DS_Store
+Thumbs.db
+nbproject
+Desktop.ini
+._*
+log/*
+!/wp-content/plugins/**/log/*
+base_sessions.dat
